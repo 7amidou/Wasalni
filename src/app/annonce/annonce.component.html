@@ -1,0 +1,97 @@
+<body>
+  <form #e="ngForm" (ngSubmit)="addtrajet(e)">
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+  
+  <div class="signin"> 
+    <div class="content"> 
+     <h2>Publier un Trajet</h2> 
+     <div class="form"> 
+      <div class="inputBox"> 
+
+        <label style="color: white;">Départ</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="dep" #dep="ngModel" ngModel class="form-select" aria-label="Default select example">
+          <option value="Ariana">Ariana</option>
+          <option value="Beja">Beja</option>
+          <option value="Ben Arous">Ben Arous</option>
+          <option value="Bizerte">Bizerte</option>
+          <option value="Gabes">Gabes</option>
+          <option value="Gafsa">Gafsa</option>
+          <option value="Jendouba">Jendouba</option>
+          <option value="Kairouan">Kairouan</option>
+          <option value="Kasserine">Kasserine</option>
+          <option value="Kebili">Kebili</option>
+          <option value="Kef">Kef</option>
+          <option value="Mahdia">Mahdia</option>
+          <option value="Manouba">Manouba</option>
+          <option value="Medenine">Medenine</option>
+          <option value="Monastir">Monastir</option>
+          <option value="Nabeul">Nabeul</option>
+          <option value="Sfax">Sfax</option>
+          <option value="Sidi Bouzid">Sidi Bouzid</option>
+          <option value="Siliana">Siliana</option>
+          <option value="Sousse">Sousse</option>
+          <option value="Tataouine">Tataouine</option>
+          <option value="Tozeur">Tozeur</option>
+          <option value="Tunis" selected>Tunis</option>
+          <option value="Zaghouan">Zaghouan</option>
+      </select>
+      </div>
+      <div class="inputBox"> 
+        <label style="color: white;">Destination</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="des" #des="ngModel" ngModel class="form-select" aria-label="Default select example">
+          <option value="Ariana">Ariana</option>
+          <option value="Beja">Beja</option>
+          <option value="Ben Arous">Ben Arous</option>
+          <option value="Bizerte">Bizerte</option>
+          <option value="Gabes">Gabes</option>
+          <option value="Gafsa">Gafsa</option>
+          <option value="Jendouba">Jendouba</option>
+          <option value="Kairouan">Kairouan</option>
+          <option value="Kasserine">Kasserine</option>
+          <option value="Kebili">Kebili</option>
+          <option value="Kef">Kef</option>
+          <option value="Mahdia">Mahdia</option>
+          <option value="Manouba">Manouba</option>
+          <option value="Medenine">Medenine</option>
+          <option value="Monastir">Monastir</option>
+          <option value="Nabeul">Nabeul</option>
+          <option value="Sfax">Sfax</option>
+          <option value="Sidi Bouzid">Sidi Bouzid</option>
+          <option value="Siliana">Siliana</option>
+          <option value="Sousse">Sousse</option>
+          <option value="Tataouine">Tataouine</option>
+          <option value="Tozeur">Tozeur</option>
+          <option value="Tunis" selected>Tunis</option>
+          <option value="Zaghouan">Zaghouan</option>
+      </select>
+       </div>
+      <div class="inputBox"> 
+
+        <label style="color: white;">Nombres de place</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="nbr" #nbr="ngModel" ngModel class="form-select" aria-label="Default select example">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          </select>
+       </div>
+       <div class="inputBox"> 
+        <input type="text" required name="prix" #prix="ngModel" ngModel> <i>Prix</i> 
+       </div>
+      <div class="inputBox"> 
+       <input type="date" required name="date" #date="ngModel" ngModel> <i>Date de Départ</i> 
+      </div>
+      <div class="inputBox"> 
+        <input type="text" required name="tele" #tele="ngModel" ngModel> <i>Telephone</i> 
+       </div>
+      <div class="inputBox"> 
+        <div class="alert alert-success" *ngIf="successMessage">{{successMessage}}</div>
+       <input type="submit" value="Publier"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+ 
+  </section>
+</form>
+</body>

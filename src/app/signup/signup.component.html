@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <form #e="ngForm" (ngSubmit)="signup(e)">
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+  
+  <div class="signin"> 
+    <div class="content"> 
+     <h2>S'inscrire</h2> 
+     <div class="form"> 
+      <div class="inputBox"> 
+       <input type="text" name="nom" #nom="ngModel" ngModel> <i>Nom</i> 
+       <div class="alert alert-warning" role="alert" *ngIf="nom.invalid">
+        Champ Obligatoire
+      </div>
+      </div>
+      <div class="inputBox"> 
+        <input type="text" required name="prenom" #prenom="ngModel" ngModel> <i>Prénom</i>
+        
+       </div>
+      <div class="inputBox"> 
+        <input type="email" required name="email" #email="ngModel" ngModel>
+        <i>Email</i> 
+        
+       </div>
+       <div class="inputBox"> 
+        <input type="text" required name="tele" #tele="ngModel" ngModel> <i>Téléphone</i>
+        
+       </div>
+      <div class="inputBox"> 
+       <input type="password" required name="password" #password="ngModel" ngModel> <i>Mot de passe</i> 
+       
+
+      </div>
+      <div class="inputBox"> 
+        <input type="text" required name="adresse" #adresse="ngModel" ngModel> <i>Adresse</i>
+         
+       </div> 
+      <div class="links"><a routerLink="/signin" href="">Se connecter</a>
+      </div> 
+
+
+      
+      <div class="inputBox"> 
+       <input type="submit" value="S'inscrire"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+ 
+  </section>
+</form>
+
+  
+</body>
+</html>

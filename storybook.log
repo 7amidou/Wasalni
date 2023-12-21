@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: projet@0.0.0
+npm ERR! Found: @angular-devkit/build-angular@13.3.11
+npm ERR! node_modules/@angular-devkit/build-angular
+npm ERR!   dev @angular-devkit/build-angular@"~13.3.11" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @angular-devkit/build-angular@">=14.1.0 < 18.0.0" from @storybook/angular@7.6.4
+npm ERR! node_modules/@storybook/angular
+npm ERR!   dev @storybook/angular@"7.6.4" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\Mega-PC\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Mega-PC\AppData\Local\npm-cache\_logs\2023-12-14T00_08_13_693Z-debug-0.log
